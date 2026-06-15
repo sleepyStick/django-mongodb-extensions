@@ -4,6 +4,15 @@ Extensions for Django MongoDB Backend
 
 [![Documentation](https://readthedocs.org/projects/django-mongodb-extensions/badge/?version=latest)](https://django-mongodb-extensions.readthedocs.io/en/latest/)
 
+## Version Support
+
+| Django / Django MongoDB Backend | Django Debug Toolbar |
+|---------------------------------|---------------------|
+| 5.2 | ≥5.1 |
+| 6.0 | ≥6.2 |
+
+Django version support follows [Django's supported versions policy](https://www.djangoproject.com/download/#supported-versions).
+
 ## Installation
 
 ```bash
