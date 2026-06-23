@@ -19,6 +19,9 @@ classifiers = [
 mql_panel = [
     "django-debug-toolbar>=5.1",
 ]
+rest_framework = [
+    "djangorestframework>=3.16",
+]
 
 [project.urls]
 Documentation = "https://django-mongodb-extensions.readthedocs.io"
@@ -35,10 +38,11 @@ docs = [
 test = [
     "coverage",
     "django-mongodb-backend>=5.2",
-    "django-mongodb-extensions[mql_panel]",
+    "django-mongodb-extensions[mql_panel,rest_framework]",
 ]
 typing = [
     "django-stubs>=5.2",
+    "djangorestframework-stubs>=3.16",
     "pyright",
     {include-group = "test"},
 ]

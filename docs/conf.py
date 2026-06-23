@@ -43,6 +43,7 @@ autodoc_mock_imports = [
     "django.views.decorators.csrf",
     "django_mongodb_backend",
     "pymongo",
+    "rest_framework",
 ]
 
 exclude_patterns = ["_build"]
